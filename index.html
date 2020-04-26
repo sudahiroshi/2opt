@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <script type="text/javascript" src="Algorithm.js"></script>
+    <link rel="stylesheet" type="text/css" href="2opt.css">
+</head>
+<body>
+<div id ="header">
+    <div>
+        <h2>
+            最近傍法(Nearest Neighbor Algorithm)
+        </h2>
+        <p>
+            1.任意の頂点を現在の頂点として選ぶ。<br>
+            2.現在の頂点とまだ訪れていないある頂点Vを結ぶ最もコストの低い辺を探す。<br>
+            3.Vを現在の頂点とする。<br>
+            4.Vに訪れたという印を付ける。<br>
+            5.全頂点を訪れたら始点に戻る。
+        </p>
+        <h2>
+            2-opt改善法
+        </h2>
+        <p>
+            経路の中から適当に二つの辺を選択して、それぞれの終点を入れ替えて新しい経路を作る方法。<br>
+            その手順でコストが小さくなれば新しい経路を採用するという処理を繰り返す。
+        </p>
+    </div>
+</div>
+<div id = "operation">
+    <div id="select">
+        <h4>都市の数</h4>
+    </div>
+    <form>
+        <div id = "view1">
+    <input type="radio" name="view" value="1" id="hyojio">点
+        </div>
+        <div id = "view2">
+    <input type="radio" name="view" value="2" id = "hyojin">最近傍法
+        </div>
+        <div id = "view3">
+    <input type="radio" name="view" value="3" id = "hyojit">変更後
+        </div>
+        <div id = "view4">
+            <input type="radio" name="view" value="4" id = "hyojiopt">2-opt
+        </div>
+    </form>
+
+</div>
+<br>
+<br>
+
+<div id="str">
+    <button type="button"  id="start" value="start">最近傍法</button>
+</div>
+<div id ="next1">
+    <button type="button"  id="next" value="next">次の2-opt探索</button>
+</div>
+<div id="reset">
+    <button type="button" id="clear" class="normal">リセット</button>
+</div>
+<div id = "graphics">
+    <div id = ctitle>
+    <h2>描画領域</h2>
+    </div>
+    <canvas id="original" width="925" height="420"></canvas>
+    <canvas id ="nn" width="925" height="420"></canvas>
+    <canvas id ="optt" width="925" height="420"></canvas>
+    <canvas id="twoopt" width="925" height="420"></canvas>
+</div>
+</body>
+
+</html>

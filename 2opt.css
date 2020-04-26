@@ -1,0 +1,92 @@
+#header{
+    background: #afeeee;
+    width: 1032px;
+}
+
+#graphics{
+    position: absolute;
+    top: 308px;
+    left: 115px;
+    width: 960px;
+    height: 500px;
+}
+#original {
+    background: #F0F8FF;
+    position: absolute;
+    top: 70px;
+    left: 1px;
+}
+#nn{
+    background: #F0F8FF;
+    position: absolute;
+    top:70px;
+    left:1px;
+}
+#twoopt{
+    background: #F0F8FF;
+    position: absolute;
+    top:70px;
+    left:1px;
+}
+#optt{
+    background: #F0F8FF;
+    position: absolute;
+    top:70px;
+    left:1px;
+}
+#logcamvas{
+    position: absolute;
+    top: 377px;
+    left:100px;
+}
+#operation{
+    position: absolute;
+    top: 330px;
+    width: 80px;
+    height: 180px;
+}
+#start{
+    position: absolute;
+    top: 420px;
+    left: 14px;
+
+}
+#next1{
+    position: absolute;
+    top: 450px;
+    left: 14px;
+}
+#reset{
+    position: absolute;
+    top: 480px;
+    left: 14px;
+
+}
+#view1{
+    position: absolute;
+    top: 210px;
+    left: 5px;
+}
+#view2{
+    position: absolute;
+    top: 230px;
+    left: 5px;
+    font-size:80%;
+}
+#view4{
+    position: absolute;
+    top: 250px;
+    left: 5px;
+    font-size:80%;
+}
+#view3{
+    position: absolute;
+    top: 270px;
+    left: 5px;
+    font-size:80%;
+}
+#select{
+    position: absolute;
+    top: -18px;
+    left: 5px;
+}
